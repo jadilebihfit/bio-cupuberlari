@@ -1,0 +1,62 @@
+{
+  "seo": {
+    "title": "Cupu Berlari",
+    "description": "Pelari cupu yang lagi belajar konsisten. Semua link, tools lari, dan rekomendasi gear ada di sini."
+  },
+  "profile": {
+    "nameTop": "CUPU",
+    "nameBottom": "BERLARI",
+    "subtitle": "Pelari pemula · Konten lari & gear",
+    "badge": "OPEN FOR COLLAB",
+    "photo": "",
+    "avatar": "",
+    "shareButton": true,
+    "socials": [
+      { "icon": "instagram", "url": "https://instagram.com/cupuberlari" },
+      { "icon": "tiktok", "url": "https://www.tiktok.com/@cupuberlari" },
+      { "icon": "strava", "url": "https://www.strava.com" }
+    ]
+  },
+  "tabs": { "links": "Link", "products": "Produk" },
+  "statsTitle": "Progres lari",
+  "stats": [
+    { "value": "242", "label": "km tahun ini" },
+    { "value": "46", "label": "kali lari" },
+    { "value": "21K", "label": "terjauh" }
+  ],
+  "linksTitle": "Link",
+  "links": [
+    { "id": "l1", "title": "Running tracker cupuberlari", "subtitle": "Program lari, GPS, milestone", "url": "https://jadilebihfit.github.io/running-tracker/", "icon": "footprints", "tag": "TOP", "visible": true },
+    { "id": "l2", "title": "Instagram", "subtitle": "@cupuberlari", "url": "https://instagram.com/cupuberlari", "icon": "instagram", "tag": "", "visible": true },
+    { "id": "l3", "title": "Rekomendasi gear lari", "subtitle": "Sepatu, jam, apparel", "url": "#produk", "icon": "shopping-bag", "tag": "BARU", "visible": true }
+  ],
+  "productsTitle": "Rekomendasi produk",
+  "productsNote": "Beberapa link di bawah adalah link afiliasi. Kalau kamu beli lewat link ini, aku dapat komisi kecil tanpa biaya tambahan untukmu.",
+  "products": [
+    { "id": "p1", "name": "Contoh: sepatu lari harian", "price": "Rp749.000", "oldPrice": "Rp999.000", "shop": "Shopee", "url": "https://shopee.co.id", "image": "", "category": "Sepatu", "badge": "Favorit", "visible": true },
+    { "id": "p2", "name": "Contoh: kaus lari dry-fit", "price": "Rp129.000", "oldPrice": "", "shop": "Tokopedia", "url": "https://www.tokopedia.com", "image": "", "category": "Apparel", "badge": "", "visible": true },
+    { "id": "p3", "name": "Contoh: running belt", "price": "Rp89.000", "oldPrice": "Rp120.000", "shop": "TikTok Shop", "url": "https://www.tiktok.com", "image": "", "category": "Aksesoris", "badge": "Murah", "visible": true }
+  ],
+  "cta": { "show": true, "text": "DM untuk kolaborasi", "url": "https://instagram.com/cupuberlari" },
+  "footer": "© cupuberlari",
+  "theme": {
+    "bg": "#E3E86B",
+    "hero": "#C8D6B2",
+    "panel": "#2D3B22",
+    "card": "#FFFFFF",
+    "accent": "#F4F062",
+    "ink": "#22301A",
+    "panelInk": "#FFFFFF",
+    "accentInk": "#22301A",
+    "displayFont": "Anton",
+    "bodyFont": "DM Sans",
+    "titleSize": 64,
+    "subtitleSize": 15,
+    "sectionSize": 24,
+    "bodySize": 16,
+    "linkSize": 17,
+    "statSize": 30,
+    "radius": 18,
+    "uppercase": true
+  }
+}

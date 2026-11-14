@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Admin · Cupu Berlari</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23F4F062'/%3E%3Ctext x='32' y='45' text-anchor='middle' font-family='Impact,sans-serif' font-size='36' fill='%232D3B22'%3EC%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div id="login" class="login" hidden></div>
+<div id="shell" class="shell" hidden>
+  <header class="bar">
+    <div class="brand"><span class="logo">C</span><div><b>Admin bio</b><span id="repo-name" class="muted small"></span></div></div>
+    <div class="bar-act">
+      <span id="dirty" class="dirty" hidden>Belum dipublish</span>
+      <button class="btn ghost" type="button" id="revert" title="Muat ulang dari GitHub">Batalkan perubahan</button>
+      <button class="btn pri" type="button" id="publish">Publish</button>
+    </div>
+  </header>
+  <div class="main">
+    <section class="editor">
+      <nav class="tabs" id="tabs" role="tablist">
+        <button type="button" data-t="profil" aria-selected="true">Profil</button>
+        <button type="button" data-t="link">Link</button>
+        <button type="button" data-t="produk">Produk</button>
+        <button type="button" data-t="statistik">Statistik</button>
+        <button type="button" data-t="tampilan">Tampilan</button>
+        <button type="button" data-t="lainnya">Lainnya</button>
+      </nav>
+      <div id="panel" class="panel"></div>
+    </section>
+    <aside class="preview">
+      <div class="pv-head"><span class="muted small">Pratinjau langsung</span><div class="seg" id="pv-tab"><button type="button" data-pt="links" aria-pressed="true">Link</button><button type="button" data-pt="products" aria-pressed="false">Produk</button></div><a class="small" id="live-link" target="_blank" rel="noopener">Buka halaman ↗</a></div>
+      <div class="phone"><iframe id="pv" title="Pratinjau halaman bio" src="../index.html?preview=1"></iframe></div>
+    </aside>
+  </div>
+  <button class="btn pri pv-toggle" type="button" id="pv-toggle">Lihat pratinjau</button>
+</div>
+<div id="modal" class="modal" hidden><div class="sheet" id="sheet"></div></div>
+<div id="toast" class="toast" hidden></div>
+<script src="../assets/icons.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>
