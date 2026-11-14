@@ -38,44 +38,7 @@
   ],
   "productsTitle": "Rekomendasi produk",
   "productsNote": "Beberapa link di bawah adalah link afiliasi. Kalau kamu beli lewat link ini, aku dapat komisi kecil tanpa biaya tambahan untukmu.",
-  "products": [
-    {
-      "id": "p1",
-      "name": "Contoh: sepatu lari harian",
-      "price": "Rp749.000",
-      "oldPrice": "Rp999.000",
-      "shop": "Shopee",
-      "url": "https://shopee.co.id",
-      "image": "",
-      "category": "Sepatu",
-      "badge": "Favorit",
-      "visible": true
-    },
-    {
-      "id": "p2",
-      "name": "Contoh: kaus lari dry-fit",
-      "price": "Rp129.000",
-      "oldPrice": "",
-      "shop": "Tokopedia",
-      "url": "https://www.tokopedia.com",
-      "image": "",
-      "category": "Apparel",
-      "badge": "",
-      "visible": true
-    },
-    {
-      "id": "p3",
-      "name": "Contoh: running belt",
-      "price": "Rp89.000",
-      "oldPrice": "Rp120.000",
-      "shop": "TikTok Shop",
-      "url": "https://www.tiktok.com",
-      "image": "",
-      "category": "Aksesoris",
-      "badge": "Murah",
-      "visible": true
-    }
-  ],
+  "products": [],
   "cta": {
     "show": true,
     "text": "DM untuk kolaborasi",
